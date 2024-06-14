@@ -3,7 +3,7 @@ import { getApp, getApps, initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBLGnv3s0pFo0Aif6JPhUwjriAKtVU4Zxc",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: "drive-clone-88837.firebaseapp.com",
   projectId: "drive-clone-88837",
   storageBucket: "drive-clone-88837.appspot.com",
